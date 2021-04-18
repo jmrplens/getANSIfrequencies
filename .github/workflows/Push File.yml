@@ -16,7 +16,7 @@ jobs:
       with:
         source_file: 'getANSIfrequencies.m'
         destination_repo: 'jmrplens/FFT2octave'
-        destination_folder: ''
+        destination_folder: '/'
         user_email: 'joreple@upv.es'
         user_name: 'jmrplens'
         commit_message: 'Update dependencies'
