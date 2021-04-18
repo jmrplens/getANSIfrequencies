@@ -19,4 +19,3 @@ jobs:
         destination_folder: '/'
         user_email: 'joreple@upv.es'
         user_name: 'jmrplens'
-        commit_message: 'Update dependencies'
