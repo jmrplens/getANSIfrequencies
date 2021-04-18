@@ -5,6 +5,12 @@ According to the standards ANSI s1.11-2004 and IEC 61260-1-2014.
 
 Return the central frequencies and its edges (upper and lower).
 
+It works similar to matlab's internal function:
+```matlab
+[cf,g] = signal.internal.octave.getListOfANSICenterFrequencies(limits, b)
+```
+But `getANSIfrequencies` returns both center frequencies and edges.
+
 ## Use
 
 ```matlab
