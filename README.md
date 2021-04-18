@@ -1,4 +1,4 @@
-# ANSI-frequencies
+# getANSIfrequencies
 Matlab function to obtain the array of frequencies in octave bands or fractional octave bands.
 
 According to the standards ANSI s1.11-2004 and IEC 61260-1-2014.
