@@ -15,12 +15,14 @@ function [fc,fl,fu] = getANSIfrequencies(b,varargin)
 %   - fu: Upper edge array
 %
 % USE:
-%   To get one-octave frequencies normalized between [12, 20000]
+%   To get one-octave normalized frequencies between [12, 20000]
 %   [fc,fl,fu] = getANSIfrequencies(1)
-%   To get one-octave frequencies normalized between [125, 8000]
+%   To get one-octave normalized frequencies between [125, 8000]
 %   [fc,fl,fu] = getANSIfrequencies(1,[125,8000])
-%   To get one-octave frequencies standard between [12, 20000]
+%   To get one-octave calculated frequencies between [12, 20000]
 %   [fc,fl,fu] = getANSIfrequencies(1,[],false)
+%   To get third-octave calculated frequencies between [12, 20000]
+%   [fc,fl,fu] = getANSIfrequencies(3,[],false)
 %
 % Jose M. Requena Plens (2021) - joreple@upv.es
 
