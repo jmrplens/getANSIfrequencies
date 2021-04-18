@@ -43,16 +43,16 @@ The third input only affects when the value of `b` is 1 or 3. It indicates wheth
 ## Examples of use
 
 ```matlab
-% To get one-octave frequencies normalized between [12, 20000]
+% To get one-octave normalized frequencies between [12, 20000]
 [fc,fl,fu] = getANSIfrequencies(1)
 ```
 
 ```matlab
-% To get one-octave frequencies normalized between [125, 8000]
+% To get one-octave normalized frequencies between [125, 8000]
 [fc,fl,fu] = getANSIfrequencies(1,[125,8000])
 ```
 
 ```matlab
-%   To get one-octave frequencies standard between [12, 20000]
+%   To get one-octave calculated frequencies between [12, 20000]
 [fc,fl,fu] = getANSIfrequencies(1,[],false)
 ```
